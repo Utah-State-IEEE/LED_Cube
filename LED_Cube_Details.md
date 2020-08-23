@@ -18,7 +18,8 @@ The other valuable resource was _LED Cube 8x8x8_ by chr on Instructables.  This 
 
 ### Hardware Design
 
-The LED cube hardware consists of 3 major components: the LED Matrix itself, control circuitry, and power supply circuitry.  
+The LED cube hardware consists of 3 major subsystems: the LED matrix itself, control circuitry, and power supply circuitry.  A list of the components used will be provided, then these subsystems will be explained below.
+
 #### Electronics Used
 
 A list of important part numbers is provided here so that datasheets and replacement information can be obtained.
@@ -35,9 +36,13 @@ A list of important part numbers is provided here so that datasheets and replace
 
 #### LED Matrix
 
-#### Control Hardware
+Since no microcontroller provides 448 outputs, the first challenge of an LED cube is to managing to individually address each LED without a dedicated GPIO.  This is overcome using multiplexing and relying on human persistence of vision.  In this multiplexing configuration, LEDs are aligned so as to be individually addressable using only a few GPIO pins.
+
 
 #### Power Control
+
+#### Control Hardware
+
 
 #### Device Enclosure
 
