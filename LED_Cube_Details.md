@@ -38,10 +38,19 @@ A list of important part numbers is provided here so that datasheets and replace
 
 Since no microcontroller provides 448 outputs, the first challenge of an LED cube is to managing to individually address each LED without a dedicated GPIO.  This is overcome using multiplexing and relying on human persistence of vision.  In this multiplexing configuration, LEDs are aligned so as to be individually addressable using only a few GPIO pins.
 
-
-#### Power Control
+![Multiplexing Example](https://github.com/Utah-State-IEEE/LED_Cube/blob/Erik-C-55-documentation1/Multiplexing.png)
 
 #### Control Hardware
+
+![Layer Select Circuit](https://github.com/Utah-State-IEEE/LED_Cube/blob/Erik-C-55-documentation1/Layer_Select.png)
+
+Another image is seen below.
+
+![Shift Register Circuit](https://github.com/Utah-State-IEEE/LED_Cube/blob/Erik-C-55-documentation1/shift_register.png)
+
+Below is the pinout for the Arduino Nano.
+
+![Arduino Nano Pinout](https://github.com/Utah-State-IEEE/LED_Cube/blob/Erik-C-55-documentation1/Nano_pinout.png)
 
 
 #### Device Enclosure
